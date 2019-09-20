@@ -12,6 +12,7 @@ setuptools.setup(
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     url="https://github.com/phulsechinmay/pycosmos",
+    download_url = 'https://github.com/phulsechinmay/pycosmos/archive/v_01.tar.gz',
     install_requires=[
         'requests'
     ],
