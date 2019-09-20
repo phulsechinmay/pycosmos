@@ -1,0 +1,9 @@
+README.md
+setup.py
+pycosmos/__init__.py
+pycosmos/projects.py
+pycosmos.egg-info/PKG-INFO
+pycosmos.egg-info/SOURCES.txt
+pycosmos.egg-info/dependency_links.txt
+pycosmos.egg-info/requires.txt
+pycosmos.egg-info/top_level.txt
