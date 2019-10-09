@@ -39,9 +39,9 @@ class CosmosProject(object):
         self.project_id = project_id
 
     def judge_attempt(self, challenge_id, email, solution):
-        if email == None:
+        if not email:
             return EMAIL_MISSING_MSG
-        if solution == None:
+        if not solution:
             return SOLUTION_MISSING_MSG
         if isinstance(solution, (pd.Series, np.ndarray)):
             solution = list(solution)
