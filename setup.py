@@ -4,7 +4,7 @@ long_description = "A python judging client library for Cosmos front-ends"
 
 setuptools.setup(
     name='pycosmos',
-    version='0.1',
+    version='0.11',
     author="Chinmay Phulse",
     author_email="phulsechinmay@gmail.com",
     packages=['pycosmos'],
